@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Helloworld from './components/Helloworld/Index';
-import Button from '@material-ui/core/Button';
+import BottomBar from './components/BottomBar/Index';
 
 
 function App() {
@@ -21,12 +20,11 @@ function App() {
         >
           Learn React
         </a>
-        <Helloworld text='123' />
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
+  
       </header>
+      <BottomBar />    
     </div>
+  
   );
 }
 
